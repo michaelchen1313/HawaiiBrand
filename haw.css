@@ -1,0 +1,231 @@
+/*COLOR PALETTE
+    *#944C4A oldrose
+    *#AA9EA1 darkgray
+    *#6C6B67 dimgray
+    *#8B94A2 slategray
+*/
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+#wrapper {
+    position: relative;
+    top: 77px;
+    width: 100%;
+
+}
+
+.button {
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+}
+
+/*NAV*/
+nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px gray solid;
+    height: 77px;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: #fafafa;
+    padding-left: 40px;
+}
+
+.menu {
+    padding-bottom: 3px;
+    margin: 0 3%;
+    text-decoration: none;
+    font-weight: bold;
+    color: #2f2f2f;
+    font-size: 1.2rem;
+    padding-bottom: 3px;
+}
+
+.menu:hover {
+    border-bottom: 1px solid #2f2f2f;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+#logo-hawaii{
+    font-size: 1.8rem;
+    margin: 0;
+}
+#logo-hawaii {
+    border: none;
+}
+
+#com {
+    width: 21px;
+    height: 21px;
+    font-family: 'Suez One', serif;
+    border-radius: 50%;
+    background-color: rgb(3, 223, 252);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#com-text {
+    font-size: .5rem;
+    color: #fafafa;
+}
+
+.logo {
+    display: flex;
+}
+
+/*MAIN*/
+main {
+    height: 800px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#main-text-vid {
+    text-shadow: 1px 1px gray;
+}
+
+.center-page {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intro-vid {
+    width: 100%;
+    height: 100%;
+    background: url(main.jpg) center center/cover;
+}
+
+#main-button {
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-top: 100px;
+    padding: 4px;
+}
+
+#explore {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #2f2f2f;
+    background-color: salmon;
+    padding: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.hook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 0;
+    line-height: 150%;
+}
+
+.hook-text {
+    width: 40%;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    line-height: 150%;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 50px;
+}
+
+.image-gallery>div {
+    height: 400px;
+    margin: 10px 10px;
+    box-shadow: 10px 10px 5px gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.image-gallery>div>p {
+    font-size: 2.5rem;
+}
+
+.image-gallery>div>p>a {
+    color: #fafafa;
+    text-shadow: 2px 2px gray;
+}
+
+.image-gallery>div>p>a:hover {
+    color: #944C4A;
+}
+
+#isl {
+    background: url(test.jpg) center center/cover;
+}
+
+#surf {
+    background: url(sno.jpg) center center/cover;
+}
+
+#hot {
+    background: url(place.jpg) center center/cover;
+}
+
+#food {
+    background: url(turtle.jpg) center center/cover;
+}
+
+/*Banner*/
+.banner {
+    height: 350px;
+    background: url(trail.jpg) center center/cover;
+    background-attachment: fixed;
+}
+
+/*Events*/
+.events {
+    margin: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4rem;
+    line-height: 150%;
+}
+
+.date {
+    color: blue;
+   
+}
+
+
+
+/*Footer*/
+footer {
+    margin-top: 30px;
+    width: 100%;
+    height: 300px;
+    background-color: #6C6B67 ;
+}
